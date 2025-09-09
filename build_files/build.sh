@@ -15,10 +15,8 @@ dnf5 install -y xwayland-satellite
 # Use a COPR Example:
 #
 dnf5 -y copr enable yalter/niri
-dnf5 copr enable mixwui/clipmon
-dnf5 -y install niri clipmon
+dnf5 -y install niri
 dnf5 -y copr disable yalter/niri
-dnf5 copr disable mixwui/clipmon
 
 
 #### Example for enabling a System Unit File
