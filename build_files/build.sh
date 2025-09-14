@@ -19,6 +19,9 @@ dnf5 -y install niri
 dnf5 -y copr disable yalter/niri
 
 
+# -- nix ! --
+mkdir -p /nix
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
