@@ -13,14 +13,9 @@ set -ouex pipefail
 dnf5 install -y xwayland-satellite
 
 # Use a COPR Example:
-#
 dnf5 -y copr enable yalter/niri
 dnf5 -y install niri
 dnf5 -y copr disable yalter/niri
-
-
-# -- nix ! --
-mkdir -p /nix
 
 #### Example for enabling a System Unit File
 
